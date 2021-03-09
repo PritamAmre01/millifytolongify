@@ -32,7 +32,7 @@ npm install millifytolongify
 Import package where numbers needs to be converted:
 
 ```bash
-Import { millifytolongify } from './millifytolongify'
+Import { millifytolongify } from 'millifytolongify'
 
 #### To conver numbers with short form to comma separated value in long form
 
