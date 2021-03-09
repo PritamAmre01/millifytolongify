@@ -1,10 +1,10 @@
 # millifytolongify
-Converts long `numbers` into pretty, human-readable `strings` and vice versa.
+Converts long `numbers` into `strings` and vice versa.
 
 ## [Demo](https://stackblitz.com/edit/millifytolongify?file=src/app/app.component.html)
 
 #### Use convertToMillify method 
-Before :unamused: | After :tada:
+Before  | After 
 --- | ---
 `2000` | `'2K'`
 `2000000` | `'2M'`
@@ -13,7 +13,7 @@ Before :unamused: | After :tada:
 `2000000000000000` | `'2Q'`
 
 #### Use convertToLongForm method 
-Before :unamused: | After :tada:
+Before  | After 
 --- | ---
 `'2K'`| `2,000.00`
 `'2M'` | `2,000,000.00`
@@ -34,7 +34,7 @@ npm install millifytolongify
 Import package where numbers needs to be converted:
 
 ```bash
-Import { millifytolongify } from 'millifytolongify'
+import { millifytolongify } from 'millifytolongify'
 
 #### To conver numbers with short form to comma separated value in long form
 
@@ -49,4 +49,4 @@ millifytolongify.convertToMillify(2000.00);
 
 ## Author
 
-![image](image.jpg)
+![](image.jpg)
