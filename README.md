@@ -1,6 +1,8 @@
 # millifytolongify
 Converts long `numbers` into pretty, human-readable `strings` and vice versa.
 
+## [Demo](https://stackblitz.com/edit/millifytolongify?file=src/app/app.component.html)
+
 #### Use convertToMillify method 
 Before :unamused: | After :tada:
 --- | ---
@@ -47,4 +49,4 @@ millifytolongify.convertToMillify(2000.00);
 
 ## Author
 
-![](image.jpg)
+![image](image.jpg)
