@@ -44,4 +44,4 @@ millifytolongify.convertToMillify(2000.00);
 
 ## Author
 
-![](image.png)
+![](image.jpg)
