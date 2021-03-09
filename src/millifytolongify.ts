@@ -11,10 +11,16 @@ export function convertToLongForm(value: any) {
         fullNumber = parseFloat(value.split(amtSeparator)[0]) * 1000;
     } else if (value.includes('M')) {
         amtSeparator = 'M';
-        fullNumber = parseFloat(value.split(amtSeparator)[0]) * 1000000;
+        fullNumber = parseFloat(value.split(amtSeparator)[0]) * Math.pow(10, 6);
     } else if (value.includes('B')) {
         amtSeparator = 'B';
-        fullNumber = parseFloat(value.split(amtSeparator)[0]) * 1000000000;
+        fullNumber = parseFloat(value.split(amtSeparator)[0]) * Math.pow(10, 9);
+    } else if (value.includes('T')) {
+        amtSeparator = 'T';
+        fullNumber = parseFloat(value.split(amtSeparator)[0]) * Math.pow(10, 12);
+    } else if (value.includes('Q')) {
+        amtSeparator = 'Q';
+        fullNumber = parseFloat(value.split(amtSeparator)[0]) * Math.pow(10, 15);
     }
 
     if (fullNumber === 0) {
