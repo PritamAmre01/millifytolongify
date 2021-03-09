@@ -31,6 +31,7 @@ npm install millifytolongify
 
 Import package where numbers needs to be converted:
 
+```bash
 Import { millifytolongify } from './millifytolongify'
 
 #### To conver numbers with short form to comma separated value in long form
@@ -41,6 +42,8 @@ millifytolongify.convertToLongForm('2k');
 ####  To millify numbers
 millifytolongify.convertToMillify(2000.00); 
 //'2K'
+
+```
 
 ## Author
 
