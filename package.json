@@ -1,6 +1,6 @@
 {
   "name": "millifytolongify",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "\" # millify & longify numbers\"",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -19,7 +19,12 @@
     "type": "git",
     "url": "git+https://github.com/PritamAmre01/millifytolongify.git"
   },
-  "keywords": ["millify" , "longify" , "convertToLongForm", "number convert"],
+  "keywords": [
+    "millify",
+    "longify",
+    "convertToLongForm",
+    "number convert"
+  ],
   "author": "Pritam Amre",
   "license": "ISC",
   "bugs": {
