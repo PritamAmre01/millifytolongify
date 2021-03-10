@@ -37,9 +37,13 @@ Import package where numbers needs to be converted:
 import { millifytolongify } from 'millifytolongify'
 
 #### To conver numbers with short form to comma separated value in long form
-
+//By default converted value is in decimal format.
 millifytolongify.convertToLongForm('2k');
 //'2,000.00'
+
+// If we dont want value in decimal format,then pass flag as false in convertToLongForm method
+millifytolongify.convertToLongForm('2k',false);
+//'2,000'
 
 ####  To millify numbers
 millifytolongify.convertToMillify(2000.00); 
